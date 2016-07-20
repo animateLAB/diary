@@ -10,7 +10,9 @@ make install
 
 ## 使い方
 
-初回起動時にGitHubのAPIトークンが要求されるので、リポジトリへのアクセスができるように適切な認可を与えてください。
+初回起動時にGitHubのAPIトークンが要求されるので、リポジトリへのアクセスができるように適切な認可を与えてください。
+
+https://github.com/settings/tokens
 
 ```sh
 make activity
