@@ -12,7 +12,23 @@ make install
 
 初回起動時にGitHubのAPIトークンが要求されるので、リポジトリへのアクセスができるように適切な認可を与えてください。
 
+### 1. トークンを生成
+
 https://github.com/settings/tokens
+
+### 2. 取得したトークンを設定する
+
+`~/.pit/default.yml` に設定します。
+
+#### 設定例
+
+```yaml
+---
+github.com:
+  access_token: xxxxxxxx
+```
+
+### 3. アクティビティを取得する
 
 ```sh
 make activity
