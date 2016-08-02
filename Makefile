@@ -1,5 +1,5 @@
 activity:
-	bundle exec furik activity
+	@bundle exec furik activity
 
 install:
 	rbenv local 2.3.0
